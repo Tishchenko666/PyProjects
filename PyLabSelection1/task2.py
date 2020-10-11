@@ -1,0 +1,7 @@
+a = input("Три числа через пробел: ")
+l = a.split(" ")
+x = float(l[0])
+y = float(l[1])
+z = float(l[2])
+f = round(max(x * y * z, x * z) / (1 + min(x, y)))
+print("Ответ =", f)
